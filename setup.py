@@ -11,8 +11,11 @@ tests_requires = [
     "quart >= 0.18.0",
     "fastapi",
     "starlette[full]",
+    "pyramid",
+    "pyramid_jinja2",
     "pytest",
     "pytest_asyncio",
+    "webtest",
 ]
 
 dev_requires = [
